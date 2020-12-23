@@ -224,6 +224,11 @@ a:focus {
   font-weight: normal;
 }
 
+.tm-subsection-title {
+  font-size: 1.8rem;
+  color: #8f8f8f;
+}
+
 .tm-intro-text {
   font-size: 1.2rem;
   line-height: 1.4;
