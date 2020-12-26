@@ -61,7 +61,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <img src="img/portrait.jpg" alt="Image" class="img-fluid tm-intro-img" />
+            <img src="img/portrait.jpg" alt="Jeffrey's Portrait" class="img-fluid tm-intro-img" />
           </div>
           <div class="col-lg-6">
             <div class="tm-intro-text-container">
@@ -153,28 +153,54 @@
           </div>            
         </div>
 
+        <!-- Triangle Rasterization Project -->
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6 mb-5 mt-5">
             <div class="tm-intro-text-container">
               <h2 class="tm-text-primary mx-auto tm-subsection-title">Triangle Rasterization</h2>
               <p class="mb-4 tm-intro-text">
-                One of my first times being exposed to computer graphics and rendering techniques,
-                this project demonstrates the application of Bresenham's algorithm for line drawing
+                This project demonstrates the application of Bresenham's algorithm for line drawing
                 on a two-dimensional canvas to rasterize lines and triangles. By specifying three
                 vertices, the sides of the triangle are incrementally drawn, and the algorithm fills
-                the lines of pixels between the sides. Additionally, smooth color shading has also
-                been implemented via bilinear interpolation to determine the color of each pixel in
-                the triangle, based on the colors of its three endpoints. Despite being a rather
-                basic demonstration of shape-drawing, this rasterization technique has proven to be
-                very fundamental within computer graphics, more specifically in the 3D rendering of
+                the lines of pixels between the sides. Smooth color shading was also implemented via
+                bilinear interpolation to determine the color of each pixel in the triangle, based
+                on the colors of its three endpoints. This was one of my first times being exposed
+                to computer graphics and rendering techniques, and despite being a rather basic
+                demonstration of shape-drawing, this rasterization technique has proven to be very
+                fundamental within computer graphics, more specifically in the 3D rendering of
                 triangle meshes to model objects.
               </p>
             </div>
           </div>
-          <div class="col-lg-6 text-center mt-3">
-            <img src="img/Triangle_Raster_1.PNG" alt="Image" class="img-fluid tm-intro-img" />
+          <div class="col-lg-6 text-center mb-5 mt-5">
+            <img src="img/gifs/Triangle_Rast_GIF.gif" alt="Triangle_Rasterization_GIF" class="img-fluid tm-intro-img" />
           </div>
         </div>
+
+        <!-- 3D Spider Model Project -->
+        <div class="row">
+          <div class="col-lg-6 mb-5 mt-5">
+            <div class="tm-intro-text-container">
+              <h2 class="tm-text-primary mx-auto tm-subsection-title">3D Spider Modeling</h2>
+              <p class="mb-4 tm-intro-text">
+                Using the basic primitive shapes provided within Java's OpenGL library alongside the
+                application of chained rotation transformations, this project focused on the creation
+                of a 3D model creature, with multiple rotatable joints. Given the many moving parts of
+                a spider, I found it to be a perfect reference model to showcase these concepts of 3D
+                rotations and other types of transformations. Throughout this project, I was able to
+                expose myself to many tasks that were new to me. For the first time, I manipulated
+                simple 3D shapes to best fit the look of the spider I had envisioned in my mind.
+                Every part of the model was created from scratch through transformations of a
+                primitive shape, from the cyclinders with spherical end caps to form the leg
+                components, to the spheres scaled to form the main body.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center mb-5 mt-5">
+            <img src="img/gifs/Spider_Model_GIF.gif" alt="Spider_Model_GIF" class="img-fluid tm-intro-img" />
+          </div>
+        </div>
+
         <!---
         <div class="row">
             <div class="col-12">
@@ -294,13 +320,15 @@
             </div>
         </div>
       </div>
+      <!--
       <footer class="text-center small tm-footer">
           <p class="mb-0">
             Copyright &copy; 2019 Company Name 
             
             - Design: <a rel="nofollow" href="https://templatemo.com" class="tm-footer-link">Template Mo</a>
           </p>
-        </footer>
+      </footer>
+      -->
     </section>
     <script src="js/jquery-1.9.1.min.js"></script>     
     <script src="js/jquery.singlePageNav.min.js"></script>     
