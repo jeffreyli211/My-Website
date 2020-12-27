@@ -84,11 +84,11 @@
                   throughout my childhood. Growing up with two older brothers who constantly
                   brought home the latest games to play from various different genres. From
                   <i>The Legend of Zelda: The Wind Waker</i>, to <i>Resident Evil 3: Nemesis</i>,
-                  to <i>Call of Duty 4: Modern Warfare</i>, I quickly grew fond of the virtual
-                  worlds that all these different titles brought me into. Upon entering my first
-                  year of college back in 2017, this fascination I had with games led me to the
-                  curiosities of what made them tick. How do all the games that I fell in love
-                  with work? <!-- How did games evolve from simple, low-polygon models to
+                  to <i>Portal</i>, I quickly grew fond of the virtual worlds that all these
+                  different titles brought me into. Upon entering my first year of college in 
+                  2017, this fascination I had with games led me to the curiosities of what
+                  made them tick. How do all the games that I fell in love with work? 
+                  <!-- How did games evolve from simple, low-polygon models to
                   near-realism characters? What were the mechanics behind enemy AI responses to my
                   character's attacks? -->
                 </p>
@@ -154,7 +154,7 @@
         </div>
 
         <!-- Triangle Rasterization Project -->
-        <div class="row">
+        <div id="Triangle_Rasterization" class="row">
           <div class="col-lg-6 mb-5 mt-5">
             <div class="tm-intro-text-container">
               <h2 class="tm-text-primary mx-auto tm-subsection-title">Triangle Rasterization</h2>
@@ -173,7 +173,7 @@
             </div>
           </div>
           <div class="col-lg-6 text-center mb-5 mt-5">
-            <img src="img/gifs/Triangle_Rast_GIF.gif" alt="Triangle_Rasterization_GIF" class="img-fluid tm-intro-img" />
+            <img src="img/gifs/Triangle_Rast_GIF.gif" alt="Triangle Rasterization GIF" class="img-fluid centerimg" />
           </div>
         </div>
 
@@ -197,7 +197,63 @@
             </div>
           </div>
           <div class="col-lg-6 text-center mb-5 mt-5">
-            <img src="img/gifs/Spider_Model_GIF.gif" alt="Spider_Model_GIF" class="img-fluid tm-intro-img" />
+            <img src="img/gifs/Spider_Model_GIF.gif" alt="Spider Model GIF" class="img-fluid centerimg" />
+          </div>
+        </div>
+
+        <!-- 3D Vivarium Project -->
+        <div class="row">
+          <div class="col-lg-6 mb-5 mt-5">
+            <div class="tm-intro-text-container">
+              <h2 class="tm-text-primary mx-auto tm-subsection-title">3D Vivarium Simulation</h2>
+              <p class="mb-4 tm-intro-text">
+                This 3D graphics project focuses on the simulation of creature behavior within a
+                closed environment. Based off the physics concept of potential functions and vector
+                fields, I was able to imitate a predator-prey relationship between a model swordfish
+                and a regular fish as its prey. <!--Each creature contains their own potential field,
+                which consequently influences the movement decisions of the creatures around it.-->
+                Intuitively, a swordfish should be attracted to the prey around it and decide to
+                move closer to them. Conversely, a fish that is aware of the presence of swordfish
+                should choose the best route to move away from them, to avoid being eaten. One of the
+                <!--By finding the gradient value of each creature in accordance to the 
+                other creatures around it, I could simulate each creature's next move within the
+                vivarium to be the best possible option for survival.--> hardest challenges throughout
+                this project was correctly animating the creatures to simulate swimming and face
+                in the direciton they moved. To implement these features, I recalled my experience
+                from my spider modeling project, incrementally changing the rotations of the creatures'
+                bodies per frame to animate them, as well as tracking the direction of the creature's
+                previous movement and updating it to the most current choice.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center mb-5 mt-5">
+            <img src="img/gifs/Vivarium_GIF.gif" alt="Vivarium GIF" class="img-fluid centerimg" />
+          </div>
+        </div>
+
+        <!-- Lighting and Shading Project -->
+        <div class="row">
+          <div class="col-lg-6 mb-5 mt-5">
+            <div class="tm-intro-text-container">
+              <h2 class="tm-text-primary mx-auto tm-subsection-title">Scenes with Shading and Lighting</h2>
+              <p class="mb-4 tm-intro-text">
+                My latest computer graphics project showcases the different techniques that are involved in
+                creating a 3D scene, including the light sources and shading methods. One of my first
+                primary objectives was to create objects which would display these techniques.
+                Using the provided shapes in Java's OpenGL would have defeated the purpose of this project,
+                due to its shading and lighting abstraction. Instead, I created these shapes from scratch
+                via triangle meshes, using the same triangle rasterization approach as my
+                <a href="#Triangle_Rasterization">first graphics project</a>. Adapted with the depth-buffer
+                algorithm, the scene established a perspective-based view of multiple objects. Moving forward,
+                I created different light sources in the scenes, including ambient lighting, infinite light
+                sources, and point light sources. Lastly, I incorporated two different forms of shading to
+                demonstrate different methods in smoothing light and reflection across surfaces: flat shading
+                and Phong shading.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center mb-5 mt-5">
+            <img src="img/gifs/Scene_GIF.gif" alt="Scene GIF" class="img-fluid centerimg" />
           </div>
         </div>
 
@@ -282,7 +338,7 @@
       <div class="container tm-container-contact">
         <div class="row">
             <div class="col-12">
-                <h2 class="mb-4 tm-section-title">Contact Us</h2>
+                <h2 class="mb-4 tm-section-title">Contact Me</h2>
                 <div class="mb-5 tm-underline">
                   <div class="tm-underline-inner"></div>
                 </div>
