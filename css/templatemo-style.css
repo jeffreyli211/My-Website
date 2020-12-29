@@ -467,6 +467,27 @@ figure.effect-honey:hover h2 i {
   color: #3496d8;
 }
 
+.tm-file-item {
+  margin-bottom: 50px;
+}
+
+.tm-file-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tm-file-link i,
+.tm-file-link span {
+  color: #3496d8;
+  transition: all 0.3s ease;
+}
+
+.tm-file-link:hover i,
+.tm-file-link:hover span {
+  color: #8f8f8f;
+}
+
 .tm-input {
   padding: 8px 25px;
   border-radius: 3px;
