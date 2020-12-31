@@ -426,13 +426,14 @@ figure.effect-honey:hover h2 i {
 
 #contact {
   color: white;
-  background-image: url(../img/NYC_5.jpg);
+  /* background-image: url(../img/NYC_5.jpg); */
+  background-color: #3f3f3f;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 850px;
+  min-height: 300px;
   position: relative;
-  padding-bottom: 50px;
-  padding-top: 160px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
 
 .tm-underline {
